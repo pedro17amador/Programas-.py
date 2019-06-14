@@ -1,0 +1,16 @@
+nome=input('Digite seu nome: ')
+n1=float(input('Matematica:'))
+n2=float(input('Portugues:'))
+n3=float(input('Ingles:'))
+n4=float(input('Geografia:'))
+n5=float(input('Filosofia:'))
+n6=float(input('Sociologia:'))
+n7=float(input('Artes:'))
+n8=float(input('Educação física:'))
+n9=float(input('Historia:'))
+n10=float(input('Biologia:'))
+n11=float(input('Quimica:'))
+n12=float(input('Física:'))
+s=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12
+print('A média do aluno {} é {}'.format(nome, s/12))
+
